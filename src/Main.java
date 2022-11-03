@@ -1,4 +1,7 @@
 public class Main {
+      public static void printSeparator() {
+        System.out.println("---------------------------------------");
+    }
     public static void main(String[] args) {
         Author strugatsky = new Author("Борис и Аркадий", "Стругатские");
         Book mondayBeginsOnSaturday = new Book("Понедельник начинается в суббо" +
@@ -17,13 +20,14 @@ public class Main {
         System.out.println(reasoningAboutYourself.getFullNameAuthor());
         System.out.println(reasoningAboutYourself.getNameBook());
         System.out.println(reasoningAboutYourself.getYearOfPublication());
-        System.out.println("------------------------------------------");
-
+         printSeparator();
 
         System.out.println(mondayBeginsOnSaturday.toString());
         System.out.println(mondayBeginsOnSaturday.getNameBook());
         System.out.println(mondayBeginsOnSaturday.getYearOfPublication());
-
+        printSeparator();
+        System.out.println(strugatsky.toString());
+        printSeparator();
         System.out.println(strugatsky.equals(strugatsky2));
         System.out.println(mondayBeginsOnSaturday.equals(mondayBeginsOnSaturday2));//Другой год издания
         System.out.println(reasoningAboutYourself.equals(reasoningAboutYourself2));
