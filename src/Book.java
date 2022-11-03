@@ -11,8 +11,6 @@ public class Book {
         this.yearOfPublication = yearOfPublication;
     }
 
-
-
     public String getNameBook() {
         return nameBook;
     }
@@ -27,11 +25,7 @@ public class Book {
 
     @Override
     public String toString() {
-        return "Книга{" +
-                "Наименование': " + nameBook + '\'' +
-                "Автор - " + fullNameAuthor +
-                " Год издания: " + yearOfPublication +
-                '}';
+        return fullNameAuthor.toString();
     }
 
     public void setYearOfPublication(int yearOfPublication) {

@@ -17,7 +17,7 @@ public class Main {
                 "е.", marcusAurelius, 1914);
         mondayBeginsOnSaturday.setYearOfPublication(1979);
 
-        System.out.println(reasoningAboutYourself.getFullNameAuthor());
+        System.out.println(reasoningAboutYourself.toString());
         System.out.println(reasoningAboutYourself.getNameBook());
         System.out.println(reasoningAboutYourself.getYearOfPublication());
          printSeparator();
