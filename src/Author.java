@@ -5,6 +5,7 @@ public class Author {
         private String lastName;
 
 
+
         public Author(String firstName, String lastName) {
             this.firstName = firstName;
             this.lastName = lastName;
@@ -18,11 +19,12 @@ public class Author {
             return lastName;
         }
 
-        public String toString() {
-            return this.firstName + " " + this.lastName;
-        }
+    @Override
+    public String toString() {
+        return this.firstName + " " + this.lastName;
+    }
 
-        @Override
+    @Override
         public boolean equals(Object o) {
             if (this == o) return true;
             if (o == null || getClass() != o.getClass()) return false;

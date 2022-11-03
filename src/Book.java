@@ -10,24 +10,29 @@ public class Book {
         this.fullNameAuthor = fullNameAuthor;
         this.yearOfPublication = yearOfPublication;
     }
-    public String toString (Author fullNameAuthor) {
-        return fullNameAuthor.toString();
-    }
 
-    public Author getFullNameAuthor() {
-        return fullNameAuthor;
-    }
+
 
     public String getNameBook() {
         return nameBook;
     }
 
-    public Author getNameAuthor() {
+    public Author getFullNameAuthor (Author fullNameAuthor) {
         return fullNameAuthor;
     }
 
     public int getYearOfPublication() {
         return yearOfPublication;
+    }
+
+
+    @Override
+    public String toString() {
+        return "Книга{" +
+                "Наименование': " + nameBook + '\'' +
+                "Автор - " + fullNameAuthor +
+                " Год издания: " + yearOfPublication +
+                '}';
     }
 
     public void setYearOfPublication(int yearOfPublication) {
