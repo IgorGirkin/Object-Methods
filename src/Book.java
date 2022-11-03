@@ -17,14 +17,13 @@ public class Book {
         return nameBook;
     }
 
-    public Author getFullNameAuthor (Author fullNameAuthor) {
+    public Author getFullNameAuthor() {
         return fullNameAuthor;
     }
 
     public int getYearOfPublication() {
         return yearOfPublication;
     }
-
 
     @Override
     public String toString() {

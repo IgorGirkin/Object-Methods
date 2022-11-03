@@ -14,10 +14,11 @@ public class Main {
                 "е.", marcusAurelius, 1914);
         mondayBeginsOnSaturday.setYearOfPublication(1979);
 
-        System.out.println(reasoningAboutYourself.toString());
+        System.out.println(reasoningAboutYourself.getFullNameAuthor());
         System.out.println(reasoningAboutYourself.getNameBook());
         System.out.println(reasoningAboutYourself.getYearOfPublication());
         System.out.println("------------------------------------------");
+
 
         System.out.println(mondayBeginsOnSaturday.toString());
         System.out.println(mondayBeginsOnSaturday.getNameBook());
