@@ -23,13 +23,17 @@ public class Book {
         return yearOfPublication;
     }
 
-    @Override
-    public String toString() {
-        return fullNameAuthor.toString();
-    }
-
     public void setYearOfPublication(int yearOfPublication) {
         this.yearOfPublication = yearOfPublication;
+    }
+
+    @Override
+    public String toString() {
+        return "{" +
+                "Название книги = '" + nameBook + '\'' +
+                ", Полное имя автора(ов) = " + fullNameAuthor +
+                ", год издания = " + yearOfPublication +
+                '}';
     }
 
     @Override
