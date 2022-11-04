@@ -17,16 +17,16 @@ public class Main {
                 "е.", marcusAurelius, 1914);
         mondayBeginsOnSaturday.setYearOfPublication(1979);
 
-        System.out.println(reasoningAboutYourself.toString());
+        System.out.println(reasoningAboutYourself);
         System.out.println(reasoningAboutYourself.getNameBook());
         System.out.println(reasoningAboutYourself.getYearOfPublication());
          printSeparator();
 
-        System.out.println(mondayBeginsOnSaturday.toString());
+        System.out.println(mondayBeginsOnSaturday);
         System.out.println(mondayBeginsOnSaturday.getNameBook());
         System.out.println(mondayBeginsOnSaturday.getYearOfPublication());
         printSeparator();
-        System.out.println(strugatsky.toString());
+        System.out.println(strugatsky);
         printSeparator();
         System.out.println(strugatsky.equals(strugatsky2));
         System.out.println(mondayBeginsOnSaturday.equals(mondayBeginsOnSaturday2));//Другой год издания
