@@ -29,11 +29,7 @@ public class Book {
 
     @Override
     public String toString() {
-        return "{" +
-                "Название книги = '" + nameBook + '\'' +
-                ", Полное имя автора(ов) = " + fullNameAuthor +
-                ", год издания = " + yearOfPublication +
-                '}';
+        return fullNameAuthor.toString() + " " + nameBook + " " + yearOfPublication;
     }
 
     @Override

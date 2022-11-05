@@ -21,7 +21,7 @@ public class Main {
         System.out.println(reasoningAboutYourself.getNameBook());
         System.out.println(reasoningAboutYourself.getYearOfPublication());
          printSeparator();
-
+         printSeparator();
         System.out.println(mondayBeginsOnSaturday);
         System.out.println(mondayBeginsOnSaturday.getNameBook());
         System.out.println(mondayBeginsOnSaturday.getYearOfPublication());
